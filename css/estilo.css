@@ -7,6 +7,35 @@ body{
     width: 350px;
     background-color: #ffffff;
     padding: 10px;
+    margin-bottom: 15px;
     border-radius: 5px;
     text-align: justify;
+}
+
+.box label{
+    display: block;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.box #i_email, #i_senha{
+    width: 340px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.box #btt{
+    cursor: pointer;
+    width: 348px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 15px;
+    border: none;
+    background-color: #6495ed;
+    color: #ffffff;
+}
+
+#btt:hover{
+    transition: 0.5s;
+    background-color: #84acf7;
 }
